@@ -1,0 +1,25 @@
+.mix {
+    color: red;
+}
+
+#tieude {
+    color: blue;
+}
+
+.menu-list {
+    font-size: 24px;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    justify-content: center;
+
+}
+a{text-decoration: none;}
+
+.logo {
+    width: 240px;
+}
+
+.mixx {
+    color: orangered;
+}
