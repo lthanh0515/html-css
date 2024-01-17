@@ -26,3 +26,54 @@ a{text-decoration: none;}
 .sisi {
     width: 200px;
 }
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Xoa gach chan lien ket */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Flexbox:  display: flex */
+/* CSS Header */
+.container {
+  max-width: 1248px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 88px;
+}
+.logo {
+  width: 123px;
+  height: 32px;
+}
+.menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-link {
+  color: #131316;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.btn-login {
+  padding: 12px 24px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+}
