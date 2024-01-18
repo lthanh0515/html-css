@@ -77,3 +77,59 @@ ul {
   border-radius: 12px;
   background-color: #f5f5f5;
 }
+
+
+
+
+
+.container {
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url("./images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 650px;
+}
+
+.title {
+  color: #131316;
+  font-size: 64px;
+  font-weight: 600;
+  padding-bottom: 24px;
+  max-width: 824px;
+  line-height: 110%;
+}
+
+.desc {
+  color: #131316;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 40px;
+  max-width: 611px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 16px 32px;
+  border-radius: 16px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-get {
+  background-color: #4891ff;
+  color: #fff;
+}
+
+.btn-book {
+  background-color: #f5f5f5;
+  color: #131316;
+}
