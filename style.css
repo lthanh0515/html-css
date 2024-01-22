@@ -158,25 +158,24 @@ footer {
   height: auto;
 }
 
-.footer-links ul,
-.footer-social ul {
+.footer1 ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
 }
 
-.footer-links li,
-.footer-social li {
+.footer1 li {
   margin-right: 20px;
 }
 
-.footer-link,
 .social-link {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
 }
+nt-weight: bold;
+
 
 /* Style for the copyright information */
 .footer-info p {
@@ -191,8 +190,7 @@ footer {
     align-items: flex-start;
   }
 
-  .footer-links,
-  .footer-social {
+  .footer1 {
     margin-top: 20px;
   }
 }
