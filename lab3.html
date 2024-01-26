@@ -27,8 +27,20 @@
         </div>
         <input class="input-form" type="number" placeholder="Contact Phone" />
         <input class="input-form" type="email" placeholder="Email" />
-        <input class="input-form"  type="text" placeholder="Let’s talk about your idea" />
-        <input type="file" />
+        <input
+          class="input-form"
+          type="text"
+          placeholder="Let’s talk about your idea"
+        />
+        <!-- Upload File -->
+        <label class="input-file" for="upload">
+          <div>
+            <img src="./img/upload.svg" alt="" />
+            <span>Upload Additional file</span>
+          </div>
+          <input type="file" id="upload" hidden />
+        </label>
+
         <p>Attach file. File size of your documents should not exceed 10MB</p>
         <div>
           <input type="checkbox" id="confirm" />
@@ -37,6 +49,34 @@
           >
         </div>
         <button type="submit" class="btn">Submit</button>
+
+        <!-- Icon Text -->
+        <div class="icon-wrapper">
+          <!-- Item 1 Phone -->
+          <div class="icon-item">
+            <img src="./img/phone.svg" alt="" />
+            <div class="icon-text">
+              <span>Phone</span>
+              <span>0987654321</span>
+            </div>
+          </div>
+          <!-- Item 1 Phone -->
+          <div class="icon-item">
+            <img src="./img/email.svg" alt="" />
+            <div class="icon-text">
+              <span>Email</span>
+              <span>info@company.com</span>
+            </div>
+          </div>
+          <!-- Item 1 Phone -->
+          <div class="icon-item">
+            <img src="./img/email.svg" alt="" />
+            <div class="icon-text">
+              <span>HELPDESK</span>
+              <span>https://helpdesk.com</span>
+            </div>
+          </div>
+        </div>
       </form>
     </div>
   </body>
