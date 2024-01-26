@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 3 - Form HTML</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./stylelap3.css" />
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <h1>Get in <span class="touch">touch</span></h1>
+      <p>
+        Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
+        molestie vel, ornare non id blandit netus.
+      </p>
+      <form class="form-content">
+        <!-- placeholder: text goi y -->
+        <input class="input-form" type="text" placeholder="Contact name" />
+        <input class="input-form" type="text" placeholder="Street" />
+        <div class="city">
+          <input class="input-form" type="text" placeholder="City" />
+          <input class="input-form" type="number" placeholder="Postcode" />
+        </div>
+        <input class="input-form" type="number" placeholder="Contact Phone" />
+        <input class="input-form" type="email" placeholder="Email" />
+        <input class="input-form"  type="text" placeholder="Let’s talk about your idea" />
+        <input type="file" />
+        <p>Attach file. File size of your documents should not exceed 10MB</p>
+        <div>
+          <input type="checkbox" id="confirm" />
+          <label for="confirm"
+            >I want to protect my data by signing an NDA</label
+          >
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
