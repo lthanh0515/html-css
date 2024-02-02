@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    background: #FBFBFF;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  nav {
+    display: flex;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .menu-list {
+    display: flex;
+    gap: 43px;
+  }
+  
+  .btn-group {
+    display: flex;
+  }
+  
+  .btn-contact {
+    border: none;
+    padding: 16px 28px;
+    border-radius: 47px;
+    background: #7f56d9;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .btn-signin {
+    border: none;
+    color: #55557a;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .menu-link {
+    color: #55557a;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  

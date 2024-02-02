@@ -1,0 +1,196 @@
+.mix {
+    color: red;
+}
+
+#tieude {
+    color: blue;
+}
+
+.menu-list {
+    font-size: 24px;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    justify-content: center;
+
+}
+a{text-decoration: none;}
+
+.logoo {
+    width: 240px;
+}
+
+.mixx {
+    color: orangered;
+}
+.sisi {
+    width: 200px;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Xoa gach chan lien ket */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Flexbox:  display: flex */
+/* CSS Header */
+.container {
+  max-width: 1248px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 88px;
+}
+.logo {
+  width: 123px;
+  height: 32px;
+}
+.menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-link {
+  color: #131316;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.btn-login {
+  padding: 12px 24px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+}
+
+
+
+
+
+.container {
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url("./images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 650px;
+}
+
+.title {
+  color: #131316;
+  font-size: 64px;
+  font-weight: 600;
+  padding-bottom: 24px;
+  max-width: 824px;
+  line-height: 110%;
+}
+
+.desc {
+  color: #131316;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 40px;
+  max-width: 611px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 16px 32px;
+  border-radius: 16px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-get {
+  background-color: #4891ff;
+  color: #fff;
+}
+
+.btn-book {
+  background-color: #f5f5f5;
+  color: #131316;
+}
+
+/* Reset some default styles for the footer */
+footer {
+  margin-top: 50px;
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.footer1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer1 li {
+  margin-right: 20px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+nt-weight: bold;
+
+
+/* Style for the copyright information */
+.footer-info p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer1 {
+    margin-top: 20px;
+  }
+}
